@@ -66,6 +66,7 @@ function getSign() {
 	var sign = document.getElementById('sign').value.toLowerCase();
 	document.getElementById('two').innerHTML = " ";
 	checkSign(sign)
+	
 }
 // checks that the user entered to see if it matches one of the signs in the array of horoscopes
 function checkSign(sign) {
@@ -81,6 +82,8 @@ function checkSign(sign) {
 		document.getElementById('one').innerHTML = "<h1>Invalid Submission, try again!</h1>"
 
 }
+
+
 
 
 
